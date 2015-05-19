@@ -1,7 +1,7 @@
 -- REFERENCE
 -- http://downloads.sourceforge.net/project/udt/udt/4.11/udt.sdk.4.11.tar.gz
  
-udt_proto = Proto("UDT","UDT packet")
+udt_proto = Proto("UDTv4","UDT packet")
 udt_seq_F = ProtoField.uint32("udt.seq", "Sequence number")
 udt_mess_F = ProtoField.uint32("udt.mess", "Message number",base.HEX)
 udt_timestamp_F = ProtoField.uint32("udt.timestamp", "Timestamp")
